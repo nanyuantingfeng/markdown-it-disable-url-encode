@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scope REG( /^$/ ) should render with config 1`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 2`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 3`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 4`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 5`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 6`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 7`] = `
+"<p><img src=\\"/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 8`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 9`] = `
+"<p><img src=\\"http://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 10`] = `
+"<p><img src=\\"https://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 11`] = `
+"<p><img src=\\"mailto://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 12`] = `
+"<p><img src=\\"ftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 13`] = `
+"<p><img src=\\"sftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 14`] = `
+"<p><img src=\\"./a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 15`] = `
+"<p><img src=\\"/a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope REG( /^$/ ) should render with config 16`] = `
+"<p><img src=\\"//a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 1`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 2`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 3`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 4`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 5`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 6`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 7`] = `
+"<p><img src=\\"/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 8`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 9`] = `
+"<p><img src=\\"http://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 10`] = `
+"<p><img src=\\"https://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 11`] = `
+"<p><img src=\\"mailto://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 12`] = `
+"<p><img src=\\"ftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 13`] = `
+"<p><img src=\\"sftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 14`] = `
+"<p><img src=\\"./a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 15`] = `
+"<p><img src=\\"/a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 16`] = `
+"<p><img src=\\"//a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 17`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 18`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 19`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 20`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 21`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 22`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 23`] = `
+"<p><img src=\\"/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 24`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 25`] = `
+"<p><img src=\\"http://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 26`] = `
+"<p><img src=\\"https://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 27`] = `
+"<p><img src=\\"mailto://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 28`] = `
+"<p><img src=\\"ftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 29`] = `
+"<p><img src=\\"sftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 30`] = `
+"<p><img src=\\"./a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 31`] = `
+"<p><img src=\\"/a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope all( * ) should render with config 32`] = `
+"<p><img src=\\"//a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 1`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 2`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 3`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 4`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 5`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 6`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 7`] = `
+"<p><img src=\\"/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 8`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 9`] = `
+"<p><img src=\\"http://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 10`] = `
+"<p><img src=\\"https://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 11`] = `
+"<p><img src=\\"mailto://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 12`] = `
+"<p><img src=\\"ftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 13`] = `
+"<p><img src=\\"sftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 14`] = `
+"<p><img src=\\"./a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 15`] = `
+"<p><img src=\\"/a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 16`] = `
+"<p><img src=\\"//a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 17`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 18`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 19`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 20`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 21`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 22`] = `
+"<p><img src=\\"./%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 23`] = `
+"<p><img src=\\"/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 24`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 25`] = `
+"<p><img src=\\"http://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 26`] = `
+"<p><img src=\\"https://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 27`] = `
+"<p><img src=\\"mailto://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 28`] = `
+"<p><img src=\\"ftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 29`] = `
+"<p><img src=\\"sftp://a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 30`] = `
+"<p><img src=\\"./a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 31`] = `
+"<p><img src=\\"/a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope array( [...] ) should render with config 32`] = `
+"<p><img src=\\"//a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 1`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 2`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 3`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 4`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 5`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 6`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 7`] = `
+"<p><img src=\\"/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 8`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 9`] = `
+"<p><img src=\\"http://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 10`] = `
+"<p><img src=\\"https://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 11`] = `
+"<p><img src=\\"mailto://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 12`] = `
+"<p><img src=\\"ftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 13`] = `
+"<p><img src=\\"sftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 14`] = `
+"<p><img src=\\"./a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 15`] = `
+"<p><img src=\\"/a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 16`] = `
+"<p><img src=\\"//a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 17`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 18`] = `
+"<p><img src=\\"./example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 19`] = `
+"<p><img src=\\"/example/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 20`] = `
+"<p><img src=\\"//example.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 21`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 22`] = `
+"<p><img src=\\"./图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 23`] = `
+"<p><img src=\\"/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 24`] = `
+"<p><img src=\\"//xn--wcsw84d.ccc/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 25`] = `
+"<p><img src=\\"http://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 26`] = `
+"<p><img src=\\"https://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 27`] = `
+"<p><img src=\\"mailto://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 28`] = `
+"<p><img src=\\"ftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 29`] = `
+"<p><img src=\\"sftp://a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 30`] = `
+"<p><img src=\\"./a.b.c/图片/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 31`] = `
+"<p><img src=\\"/a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;
+
+exports[`scope relative( ./ or . ) should render with config 32`] = `
+"<p><img src=\\"//a.b.c/%E5%9B%BE%E7%89%87/image.png\\" alt=\\"image.png\\" /></p>
+"
+`;

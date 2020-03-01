@@ -1,0 +1,45 @@
+{
+  "name": "markdown-it-disable-url-encode",
+  "version": "1.0.0",
+  "description": "Forced decoding image src for non-ascii chars",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run copy",
+    "copy": "cp index.js package.json LICENSE README.md dist",
+    "clean": "rm -rf ./dist && mkdir dist",
+    "security": "npm audit",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "publish2npm": "npm run build && npm publish ./dist",
+    "test:only": "cross-env NODE_ENV=test jest",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "test:coverage": "cross-env NODE_ENV=test jest --collectCoverageFrom=\"index.js\" --coverage",
+    "test": "cross-env NODE_ENV=test npm run test:coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanyuantingfeng/markdown-it-disable-url-encode.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "image",
+    "url",
+    "disable",
+    "encode"
+  ],
+  "author": "nanyuantingfeng<nanyuantingfeng@aliyun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanyuantingfeng/markdown-it-disable-url-encode/issues"
+  },
+  "homepage": "https://github.com/nanyuantingfeng/markdown-it-disable-url-encode#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "jest": "^25.1.0",
+    "markdown-it": "^10.0.0",
+    "mdurl": "*"
+  },
+  "peerDependencies": {
+    "mdurl": "*"
+  }
+}
