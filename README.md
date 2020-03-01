@@ -49,3 +49,4 @@ config rules:
 
 6. `REGEXP` :  will be apply  `/^/.test()` as result  for  detect if it needs to be decoded  
 
+
