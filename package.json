@@ -34,6 +34,7 @@
   "homepage": "https://github.com/nanyuantingfeng/markdown-it-disable-url-encode#readme",
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "cross-env": "^7.0.0",
     "jest": "^25.1.0",
     "markdown-it": "^10.0.0",
