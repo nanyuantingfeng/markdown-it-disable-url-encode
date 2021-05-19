@@ -19,7 +19,7 @@ function isNeedDecode(url, config) {
   }
 
   config = [].concat(config);
-  return config.some(a => url.startsWith(a));
+  return config.some((a) => url.startsWith(a));
 }
 
 function decodeURL(url, config) {
@@ -27,13 +27,14 @@ function decodeURL(url, config) {
   return /^(\w+?:\/)?\.?\//.test(url) ? url : "./" + url;
 }
 
-module.exports = function(md, config) {
-  md.renderer.rules.image = function(tokens, idx) {
+module.exports = function (md, config) {
+  var defaultRender = md.renderer.rules.image;
+  md.renderer.rules.image = function (tokens, idx, options, env, self) {
     var token = tokens[idx];
     var srcIndex = token.attrIndex("src");
     var url = token.attrs[srcIndex][1];
-    var caption = md.utils.escapeHtml(token.content);
-    url = decodeURL(url, config);
-    return '<img src="' + url + '" alt="' + caption + '" />';
+    var url2 = decodeURL(url, config);
+    tokens[idx].attrs[srcIndex][1] = url2;
+    return defaultRender(tokens, idx, options, env, self);
   };
 };
