@@ -1,6 +1,6 @@
 {
-  "name": "markdown-it-disable-url-encode",
-  "version": "1.0.1",
+  "name": "@pangwu86/markdown-it-disable-url-encode",
+  "version": "1.0.0",
   "description": "Forced decoding image src for non-ascii chars",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nanyuantingfeng/markdown-it-disable-url-encode.git"
+    "url": "git+https://github.com/pangwu86/markdown-it-disable-url-encode.git"
   },
   "keywords": [
     "markdown-it",
@@ -26,12 +26,12 @@
     "disable",
     "encode"
   ],
-  "author": "nanyuantingfeng<nanyuantingfeng@aliyun.com>",
+  "author": "pangwu86<pangwu86@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nanyuantingfeng/markdown-it-disable-url-encode/issues"
+    "url": "https://github.com/pangwu86/markdown-it-disable-url-encode/issues"
   },
-  "homepage": "https://github.com/nanyuantingfeng/markdown-it-disable-url-encode#readme",
+  "homepage": "https://github.com/pangwu86/markdown-it-disable-url-encode#readme",
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.9",
