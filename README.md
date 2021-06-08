@@ -10,7 +10,7 @@ Forced decoding image src for non-ascii chars
 #### Getting Started
 
 ```shell
-npm install --save-dev markdown-it-disable-url-encode
+npm install --save-dev @pangwu86/markdown-it-disable-url-encode
 ```
 
 
@@ -19,11 +19,11 @@ npm install --save-dev markdown-it-disable-url-encode
 
 ```js 
   const md = require("markdown-it")();  
-  md.use(require("markdown-it-disable-url-encode"), "./")
-  // md.use(require("markdown-it-disable-url-encode"), "*")
-  // md.use(require("markdown-it-disable-url-encode"), ".")
-  // md.use(require("markdown-it-disable-url-encode"), [...])
-  // md.use(require("markdown-it-disable-url-encode"), /.../)        
+  md.use(require("@pangwu86/markdown-it-disable-url-encode"), "./")
+  // md.use(require("@pangwu86/markdown-it-disable-url-encode"), "*")
+  // md.use(require("@pangwu86/markdown-it-disable-url-encode"), ".")
+  // md.use(require("@pangwu86/markdown-it-disable-url-encode"), [...])
+  // md.use(require("@pangwu86/markdown-it-disable-url-encode"), /.../)        
 
 
   const html = md.render("![image.png](图片/image.png)")

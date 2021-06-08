@@ -1,6 +1,6 @@
 {
   "name": "@pangwu86/markdown-it-disable-url-encode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forced decoding image src for non-ascii chars",
   "main": "index.js",
   "scripts": {
