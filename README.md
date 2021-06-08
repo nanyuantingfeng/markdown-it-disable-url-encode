@@ -1,6 +1,7 @@
 # markdown-it-disable-url-encode
 
 > 本项目修改自 [nanyuantingfeng/markdown-it-disable-url-encode](https://github.com/nanyuantingfeng/markdown-it-disable-url-encode)
+> 修正了一些 [兼容性问题](https://github.com/nanyuantingfeng/markdown-it-disable-url-encode/issues/6)
 
 #### Getting Started
 
