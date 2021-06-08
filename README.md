@@ -1,9 +1,4 @@
 # markdown-it-disable-url-encode
-Forced decoding image src for non-ascii chars
-
-[![Build Status](https://travis-ci.org/nanyuantingfeng/markdown-it-disable-url-encode.svg?branch=master)](https://travis-ci.org/nanyuantingfeng/markdown-it-disable-url-encode)
-[![Coverage Status](https://coveralls.io/repos/github/nanyuantingfeng/markdown-it-disable-url-encode/badge.svg?branch=master)](https://coveralls.io/github/nanyuantingfeng/markdown-it-disable-url-encode?branch=master)
-[![GitHub repo size](https://img.shields.io/github/repo-size/nanyuantingfeng/markdown-it-disable-url-encode)](https://img.shields.io/github/repo-size/nanyuantingfeng/markdown-it-disable-url-encode)
 
 > 本项目修改自 [nanyuantingfeng/markdown-it-disable-url-encode](https://github.com/nanyuantingfeng/markdown-it-disable-url-encode)
 
@@ -12,7 +7,6 @@ Forced decoding image src for non-ascii chars
 ```shell
 npm install --save-dev @pangwu86/markdown-it-disable-url-encode
 ```
-
 
 
 #### Usage
