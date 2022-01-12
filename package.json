@@ -37,7 +37,7 @@
     "coveralls": "^3.0.9",
     "cross-env": "^7.0.0",
     "jest": "^25.1.0",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "mdurl": "*"
   },
   "peerDependencies": {
